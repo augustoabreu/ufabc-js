@@ -19,7 +19,7 @@ Output:
 
 ## Java implementation
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 public class Ex11 {
   public static void main(String[] args){
     float circX, circY, ptX, ptY, radius, hypotenuse;
