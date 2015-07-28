@@ -75,9 +75,9 @@ public class Ex11 {
   hypotenuse = Math.sqrt(Math.pow((ptX - circX), 2) + Math.pow((ptY - circY), 2));
 
   if (hypotenuse <= radius) {
-    alert('The point is inside of the circle');
+    console.log('The point is inside of the circle');
   } else {
-    alert('The point is not inside of the circle');
+    console.log('The point is not inside of the circle');
   }
 }());
 ```

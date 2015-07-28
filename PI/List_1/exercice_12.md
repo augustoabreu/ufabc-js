@@ -55,6 +55,6 @@ public class Ex12 {
     counter += 1;
   }
 
-  alert('20th term: ' + ap);
+  console.log('20th term: ' + ap);
 }());
 ```

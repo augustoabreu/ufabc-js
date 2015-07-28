@@ -68,6 +68,6 @@ public class Ex10 {
     type = 'scalene';
   }
 
-  alert('Type of the triangle: ' + type);
+  console.log('Type of the triangle: ' + type);
 }());
 ```

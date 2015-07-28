@@ -67,7 +67,7 @@ public class Exercice07 {
   volume    = width * depth * height;
   diagonal  = Math.sqrt( Math.pow( width, 2 ) + Math.pow( height, 2 ) + Math.pow( depth, 2 ) );
 
-  alert('Perimeter: ' + perimeter + '\n' + 
+  console.log('Perimeter: ' + perimeter + '\n' + 
         'Area: ' + area + '\n' + 
         'Volume: ' + volume + '\n' + 
         'Diagonal: ' + diagonal);

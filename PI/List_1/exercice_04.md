@@ -56,7 +56,7 @@ public class Exercice04 {
   area      = rectBase * rectHeight;
   diagonal  = Math.sqrt( Math.pow(rectBase, 2) + Math.pow(rectHeight, 2) );
 
-  alert('Perimeter: ' + perimeter + '\n' + 
+  console.log('Perimeter: ' + perimeter + '\n' + 
         'Area: ' + area + '\n' + 
         'Diagonal: ' + diagonal);
 }());

@@ -54,7 +54,7 @@ public class Exercice02 {
   quotient  = divid / divis;
   rest      = divid % divis;
 
-  alert('Dividend: ' + divid + '\n' + 
+  console.log('Dividend: ' + divid + '\n' + 
         'Divisor: ' + divis + '\n' +
         'Quotient: ' + quotient + '\n' +
         'Rest: ' + rest);

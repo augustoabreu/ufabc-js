@@ -47,7 +47,7 @@ public class Exercice6 {
   perimeter = 2 * Math.PI * circleRadius;
   area      = Math.PI * Math.pow( circleRadius, 2 );
 
-  alert('Perimeter: ' + perimeter + '\n' + 
+  console.log('Perimeter: ' + perimeter + '\n' + 
         'Area: ' + area);
 }());
 ```

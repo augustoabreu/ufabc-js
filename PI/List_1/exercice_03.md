@@ -41,6 +41,6 @@ public class Exercice03 {
 
   debt = ( loanAmount * 5 / 100 ) * 6 + loanAmount;
 
-  alert('Debt: ' + debt);
+  console.log('Debt: ' + debt);
 }());
 ```

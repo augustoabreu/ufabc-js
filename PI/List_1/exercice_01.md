@@ -43,7 +43,7 @@ public class Exercice01 {
   prev = num - 1;
   next = num + 1;
 
-  alert('Previous: ' + prev + '\n' + 
+  console.log('Previous: ' + prev + '\n' + 
         'Next: ' + next);
 }());
 ```

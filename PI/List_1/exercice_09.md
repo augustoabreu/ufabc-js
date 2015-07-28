@@ -60,9 +60,9 @@ public class Ex9 {
   if (segment1 < ( segment2 + segment3 ) && 
       segment2 < ( segment1 + segment3 ) && 
       segment3 < ( segment1 + segment2 )) {
-      alert('The segments form a triangle.')
+      console.log('The segments form a triangle.')
     } else {
-      alert('The segments do not form a triangle.')
+      console.log('The segments do not form a triangle.')
     }
 }());
 ```

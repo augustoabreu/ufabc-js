@@ -47,6 +47,6 @@ public class Ex8 {
   
   hypo = Math.sqrt( Math.pow( cathetus1, 2 ) + Math.pow( cathetus2, 2 ) );
 
-  alert('Hypotenuse: ' + perimeter);
+  console.log('Hypotenuse: ' + perimeter);
 }());
 ```

@@ -49,7 +49,7 @@ public class Exercice05 {
   area      = squareBase * squareBase;
   diagonal  = Math.sqrt( Math.pow(squareBase, 2) * 2 );
 
-  alert('Perimeter: ' + perimeter + '\n' + 
+  console.log('Perimeter: ' + perimeter + '\n' + 
         'Area: ' + area + '\n' + 
         'Diagonal: ' + diagonal);
 }());
